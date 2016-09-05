@@ -1,0 +1,31 @@
+{
+  "role": "UserRoles",
+  "name": {
+    "familyName": "",
+    "givenName": "",
+    "middleName": "",
+    "formattedName": "",
+    "honorificPrifix": ""
+  },
+  "displayName": "",
+  "active": false,
+  "password": "",
+  "nickName": "",
+  "emails": [
+      {  "email" : "123@gmail.com",
+          "type": "office",
+                  "isPrimary": true
+       }
+    ],
+    "phoneNumbers": [
+      {"phoneNumber" : "9008452422",
+       "type": "mobile"
+       }
+    ],
+    "photos": [
+       { "url" : "no known",
+         "type": "thumbnail"
+       }
+    ],
+  "userName": ""
+}
