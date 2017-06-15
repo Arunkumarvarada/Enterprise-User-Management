@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altiux.eum.entities;
+package com.java4u.eum.entities;
 
 import java.io.Serializable;
 import java.util.Currency;

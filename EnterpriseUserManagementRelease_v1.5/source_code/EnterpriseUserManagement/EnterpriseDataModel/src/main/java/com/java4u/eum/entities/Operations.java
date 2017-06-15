@@ -1,4 +1,4 @@
-package com.altiux.eum.entities;
+package com.java4u.eum.entities;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.altiux.eum.entities;
+package com.java4u.eum.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

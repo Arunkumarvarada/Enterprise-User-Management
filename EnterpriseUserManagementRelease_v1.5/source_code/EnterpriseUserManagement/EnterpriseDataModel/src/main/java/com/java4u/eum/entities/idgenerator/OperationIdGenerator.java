@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altiux.eum.entities.idgenerator;
+package com.java4u.eum.entities.idgenerator;
 
 import java.io.Serializable;
 
@@ -12,7 +12,7 @@ import org.hibernate.Session;
 import org.hibernate.engine.SessionImplementor;
 import org.hibernate.id.IdentifierGenerator;
 
-import com.altiux.eum.entities.Operations;
+import com.java4u.eum.entities.Operations;
 
 
 public class OperationIdGenerator implements IdentifierGenerator {

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altiux.eum.entities;
+package com.java4u.eum.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -81,7 +81,7 @@ public class Roles {
 //	}
 
 	public Roles(String roleId, String roleName, List<Operations> operations,
-			List<com.altiux.eum.entities.User> user) {
+			List<com.java4u.eum.entities.User> user) {
 		super();
 		this.roleId = roleId;
 		this.roleName = roleName;

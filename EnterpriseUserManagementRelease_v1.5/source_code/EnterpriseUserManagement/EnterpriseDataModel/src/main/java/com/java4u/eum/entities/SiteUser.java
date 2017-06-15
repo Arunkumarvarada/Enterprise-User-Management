@@ -1,4 +1,4 @@
-package com.altiux.eum.entities;
+package com.java4u.eum.entities;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;

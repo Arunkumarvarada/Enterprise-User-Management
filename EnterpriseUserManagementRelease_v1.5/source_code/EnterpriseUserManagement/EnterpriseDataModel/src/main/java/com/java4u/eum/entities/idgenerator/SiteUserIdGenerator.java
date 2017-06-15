@@ -1,4 +1,4 @@
-package com.altiux.eum.entities.idgenerator;
+package com.java4u.eum.entities.idgenerator;
 
 import java.io.Serializable;
 
@@ -9,36 +9,34 @@ import org.hibernate.Session;
 import org.hibernate.engine.SessionImplementor;
 import org.hibernate.id.IdentifierGenerator;
 
-import com.altiux.eum.entities.SiteUser;
-import com.altiux.eum.entities.User;
+import com.java4u.eum.entities.SiteUser;
 
-public class SiteUserIdGenerator implements IdentifierGenerator{
+public class SiteUserIdGenerator implements IdentifierGenerator {
 
-	public Serializable generate(SessionImplementor session, Object object)	throws HibernateException {
+	public Serializable generate(SessionImplementor session, Object object) throws HibernateException {
 
 		String prefix = "SUSR";
-		Session newSession =(Session)session;
+		Session newSession = (Session) session;
 		try {
 
 			String queryString = "from SiteUser order by siteUserId desc";
 			Query query = newSession.createQuery(queryString);
 
 			SiteUser lastUserId = (SiteUser) query.setMaxResults(1).uniqueResult();
-            
-			if(lastUserId!=null) {
+
+			if (lastUserId != null) {
 				int count = Integer.parseInt(lastUserId.getSiteUserId().replace(prefix, ""));
-				int present=count+1;
-				String code = prefix + StringUtils.leftPad("" + present,8,'0');
+				int present = count + 1;
+				String code = prefix + StringUtils.leftPad("" + present, 8, '0');
 				return code;
-			} else	{
-				String code = prefix + StringUtils.leftPad("" + 1,8,'0');
+			} else {
+				String code = prefix + StringUtils.leftPad("" + 1, 8, '0');
 				return code;
 			}
 
-
-		} catch (Exception e) {       
+		} catch (Exception e) {
 			e.printStackTrace();
-		} 
+		}
 		return null;
 	}
 }
