@@ -1,11 +1,11 @@
-package com.altiux.eum.esystem.dto;
+package com.java4u.eum.esystem.dto;
 
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
 
-import com.altiux.eum.esite.dto.OperationsDTO;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.java4u.eum.esystem.dto.OperationsDTO;
 
 public class LoginWithRolesResponseDTO {
 	private @JsonProperty("userId") String userId;
@@ -102,5 +102,7 @@ public class LoginWithRolesResponseDTO {
 						? allowedOperations.subList(0, Math.min(allowedOperations.size(), maxLen)) : null)
 				+ ", code=" + code + ", msg=" + msg + ", responseCode=" + responseCode + "]";
 	}
+
+
 
 }

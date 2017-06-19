@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dto;
+package com.java4u.eum.esite.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

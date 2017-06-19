@@ -1,4 +1,4 @@
-package com.altiux.eum.util;
+package com.java4u.eum.util;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,7 +6,7 @@ import org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBea
 
 /**
  * 
- * @author Ankit Arora
+ * @author Arun
  *
  */
 public class AltiuxSessionFactory {

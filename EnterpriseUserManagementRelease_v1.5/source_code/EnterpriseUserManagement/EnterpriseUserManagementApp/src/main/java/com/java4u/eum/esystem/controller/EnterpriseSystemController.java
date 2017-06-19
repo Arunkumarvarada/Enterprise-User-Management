@@ -1,4 +1,4 @@
-package com.altiux.eum.esystem.controller;
+package com.java4u.eum.esystem.controller;
 
 import java.util.List;
 
@@ -12,23 +12,23 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.altiux.commons.errors.ErrorResponse;
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.eum.entities.Operations;
-import com.altiux.eum.esystem.dao.EnterpriseSystemDAO;
-import com.altiux.eum.esystem.dto.EnterpriseSiteAdditionRequestDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSiteAdditionResponseDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSiteStatusRepsonse;
-import com.altiux.eum.esystem.dto.EnterpriseSystemAdditionRequestDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSystemAdditionResponseDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSystemStatusRepsonse;
-import com.altiux.eum.esystem.dto.OperationsDTO;
-import com.altiux.eum.esystem.dto.OperationsInputResponseDTO;
-import com.altiux.eum.esystem.dto.RolesDTO;
-import com.altiux.eum.utils.EnterpriseSiteUtils;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.commons.errors.ErrorResponse;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.eum.entities.Operations;
+import com.java4u.eum.esystem.dao.EnterpriseSystemDAO;
+import com.java4u.eum.esystem.dto.EnterpriseSiteAdditionRequestDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSiteAdditionResponseDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSiteStatusRepsonse;
+import com.java4u.eum.esystem.dto.EnterpriseSystemAdditionRequestDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSystemAdditionResponseDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSystemStatusRepsonse;
+import com.java4u.eum.esystem.dto.OperationsDTO;
+import com.java4u.eum.esystem.dto.OperationsInputResponseDTO;
+import com.java4u.eum.esystem.dto.RolesDTO;
+import com.java4u.eum.utils.EnterpriseSiteUtils;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;

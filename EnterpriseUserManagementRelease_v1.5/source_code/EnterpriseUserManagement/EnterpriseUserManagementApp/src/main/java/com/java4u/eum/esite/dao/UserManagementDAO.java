@@ -1,17 +1,17 @@
-package com.altiux.eum.esite.dao;
+package com.java4u.eum.esite.dao;
 
 import java.util.List;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.commons.exceptions.UserAlreadyAvailableException;
-import com.altiux.commons.exceptions.UserNotFoundException;
-import com.altiux.eum.esite.dto.AllUsersResponseDTO;
-import com.altiux.eum.esite.dto.OperationsDTO;
-import com.altiux.eum.esite.dto.UserAdditionRequestDTO;
-import com.altiux.eum.esite.dto.UserAdditionResponseDTO;
-import com.altiux.eum.esite.dto.UserDeletionRequestDTO;
-import com.altiux.eum.esite.dto.UserDeletionResponseDTO;
-import com.altiux.eum.esite.dto.UserRolesDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.commons.exceptions.UserAlreadyAvailableException;
+import com.java4u.commons.exceptions.UserNotFoundException;
+import com.java4u.eum.esite.dto.AllUsersResponseDTO;
+import com.java4u.eum.esite.dto.OperationsDTO;
+import com.java4u.eum.esite.dto.UserAdditionRequestDTO;
+import com.java4u.eum.esite.dto.UserAdditionResponseDTO;
+import com.java4u.eum.esite.dto.UserDeletionRequestDTO;
+import com.java4u.eum.esite.dto.UserDeletionResponseDTO;
+import com.java4u.eum.esite.dto.UserRolesDTO;
 
 public interface UserManagementDAO {
 

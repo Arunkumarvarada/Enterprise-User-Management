@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dto;
+package com.java4u.eum.esite.dto;
 
 public class SiteUserDeletionResponseDTO {
 

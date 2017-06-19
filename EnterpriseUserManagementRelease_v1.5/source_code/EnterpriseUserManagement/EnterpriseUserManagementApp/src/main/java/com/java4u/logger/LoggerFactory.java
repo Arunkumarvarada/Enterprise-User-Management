@@ -1,11 +1,11 @@
-package com.altiux.logger;
+package com.java4u.logger;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * 
- * @author Renukaradhya.hd
+ * @author Arun
  *
  */
 public class LoggerFactory {

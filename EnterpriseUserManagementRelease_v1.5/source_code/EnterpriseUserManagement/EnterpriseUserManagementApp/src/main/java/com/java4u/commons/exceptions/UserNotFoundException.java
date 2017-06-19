@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.altiux.commons.exceptions;
+package com.java4u.commons.exceptions;
 
 /**
- * @author ankit.a
+ * @author Arun
  *
  */
 public class UserNotFoundException extends Exception {

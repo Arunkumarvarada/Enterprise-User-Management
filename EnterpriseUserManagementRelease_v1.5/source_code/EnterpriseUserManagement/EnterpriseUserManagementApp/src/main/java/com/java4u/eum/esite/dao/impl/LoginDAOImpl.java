@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dao.impl;
+package com.java4u.eum.esite.dao.impl;
 
 import java.util.List;
 
@@ -7,19 +7,19 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.dao.DataAccessException;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.commons.exceptions.EnterpriseSiteNotActiveException;
-import com.altiux.commons.exceptions.UserNotFoundException;
-import com.altiux.eum.entities.EnterpriseSite;
-import com.altiux.eum.entities.EnterpriseSystemUser;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.commons.exceptions.EnterpriseSiteNotActiveException;
+import com.java4u.commons.exceptions.UserNotFoundException;
+import com.java4u.eum.entities.EnterpriseSite;
+import com.java4u.eum.entities.EnterpriseSystemUser;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 
-import com.altiux.eum.util.EnterpriseSystemInputValidator;
-import com.altiux.eum.esite.dao.LoginDAO;
-import com.altiux.eum.esite.dto.LoginCredentialsDTO;
-import com.altiux.eum.esite.dto.LoginSuccessDTO;
+import com.java4u.eum.util.EnterpriseSystemInputValidator;
+import com.java4u.eum.esite.dao.LoginDAO;
+import com.java4u.eum.esite.dto.LoginCredentialsDTO;
+import com.java4u.eum.esite.dto.LoginSuccessDTO;
 
 public class LoginDAOImpl implements LoginDAO {
 

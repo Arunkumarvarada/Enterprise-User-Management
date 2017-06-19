@@ -1,4 +1,4 @@
-package com.altiux.eum.util;
+package com.java4u.eum.util;
 
 import org.hibernate.SessionFactory;
 

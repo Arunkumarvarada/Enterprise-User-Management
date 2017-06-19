@@ -1,10 +1,10 @@
-package com.altiux.eum.esite.dao;
+package com.java4u.eum.esite.dao;
 
 import java.util.List;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.eum.esite.dto.UserRequestDTO;
-import com.altiux.eum.esite.dto.UserRequestDetailsDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.eum.esite.dto.UserRequestDTO;
+import com.java4u.eum.esite.dto.UserRequestDetailsDTO;
 
 
 

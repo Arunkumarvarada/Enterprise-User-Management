@@ -1,8 +1,8 @@
-package com.altiux.eum.esystem.dao;
+package com.java4u.eum.esystem.dao;
 
 import org.springframework.beans.factory.InitializingBean;
 
-import com.altiux.eum.esystem.dto.ApplicationConfigDTO;
+import com.java4u.eum.esystem.dto.ApplicationConfigDTO;
 
 
 public class ApplicationConfigInitializer implements InitializingBean {

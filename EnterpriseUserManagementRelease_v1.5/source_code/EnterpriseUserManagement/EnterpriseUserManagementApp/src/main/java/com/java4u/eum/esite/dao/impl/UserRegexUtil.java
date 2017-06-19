@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dao.impl;
+package com.java4u.eum.esite.dao.impl;
 
 public class UserRegexUtil {
 

@@ -1,4 +1,4 @@
-package com.altiux.rest.controllers;
+package com.java4u.rest.controllers;
 
 import java.util.ArrayList;
 import java.util.List;

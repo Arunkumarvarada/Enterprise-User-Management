@@ -1,8 +1,8 @@
-package com.altiux.eum.esystem.dao.impl;
+package com.java4u.eum.esystem.dao.impl;
 
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 
 public class UserRegexUtil {
 

@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.controller;
+package com.java4u.eum.esite.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,17 +8,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.altiux.commons.errors.ErrorResponse;
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.commons.exceptions.EnterpriseSiteNotActiveException;
-import com.altiux.commons.exceptions.UserNotFoundException;
-import com.altiux.eum.esite.dao.LoginDAO;
-import com.altiux.eum.esite.dto.LoginCredentialsDTO;
-import com.altiux.eum.esite.dto.LoginSuccessDTO;
-import com.altiux.eum.utils.EnterpriseSiteUtils;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.commons.errors.ErrorResponse;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.commons.exceptions.EnterpriseSiteNotActiveException;
+import com.java4u.commons.exceptions.UserNotFoundException;
+import com.java4u.eum.esite.dao.LoginDAO;
+import com.java4u.eum.esite.dto.LoginCredentialsDTO;
+import com.java4u.eum.esite.dto.LoginSuccessDTO;
+import com.java4u.eum.utils.EnterpriseSiteUtils;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;

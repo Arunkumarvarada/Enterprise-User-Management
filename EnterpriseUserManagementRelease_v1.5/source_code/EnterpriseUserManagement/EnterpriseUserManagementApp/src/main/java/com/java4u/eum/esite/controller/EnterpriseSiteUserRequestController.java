@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.controller;
+package com.java4u.eum.esite.controller;
 
 import java.util.List;
 
@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.altiux.commons.errors.ErrorResponse;
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.eum.esite.dao.UserRequestDAO;
-import com.altiux.eum.esite.dao.impl.UserRegexUtil;
-import com.altiux.eum.esite.dto.UserRequestDTO;
-import com.altiux.eum.esite.dto.UserRequestDetailsDTO;
-import com.altiux.eum.esite.dto.UserRequestDetailsListDTO;
-import com.altiux.eum.utils.EnterpriseSiteUtils;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.commons.errors.ErrorResponse;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.eum.esite.dao.UserRequestDAO;
+import com.java4u.eum.esite.dao.impl.UserRegexUtil;
+import com.java4u.eum.esite.dto.UserRequestDTO;
+import com.java4u.eum.esite.dto.UserRequestDetailsDTO;
+import com.java4u.eum.esite.dto.UserRequestDetailsListDTO;
+import com.java4u.eum.utils.EnterpriseSiteUtils;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;

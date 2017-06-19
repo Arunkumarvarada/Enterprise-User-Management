@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dto;
+package com.java4u.eum.esite.dto;
 
 import java.util.ArrayList;
 import java.util.List;

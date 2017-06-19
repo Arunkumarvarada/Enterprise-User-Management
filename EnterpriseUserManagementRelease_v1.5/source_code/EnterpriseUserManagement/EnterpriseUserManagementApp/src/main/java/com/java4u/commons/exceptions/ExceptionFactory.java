@@ -1,4 +1,4 @@
-package com.altiux.commons.exceptions;
+package com.java4u.commons.exceptions;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.altiux.logger;
+package com.java4u.logger;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;

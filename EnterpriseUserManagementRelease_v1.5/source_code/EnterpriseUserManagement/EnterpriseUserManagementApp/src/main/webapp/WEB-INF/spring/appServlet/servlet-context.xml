@@ -33,8 +33,8 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.altiux.rest.controllers" />
-	<context:component-scan base-package="com.altiux.eum" />
+	<context:component-scan base-package="com.java4u.rest.controllers" />
+	<context:component-scan base-package="com.java4u.eum" />
 
     
 </beans:beans>

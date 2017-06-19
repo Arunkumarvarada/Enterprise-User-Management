@@ -1,4 +1,4 @@
-package com.altiux.eum.esystem.dto;
+package com.java4u.eum.esystem.dto;
 
 import java.util.Set;
 

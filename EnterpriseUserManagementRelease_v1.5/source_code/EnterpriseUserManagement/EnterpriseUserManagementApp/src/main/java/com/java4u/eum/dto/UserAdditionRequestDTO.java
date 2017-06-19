@@ -1,4 +1,4 @@
-package com.altiux.eum.dto;
+package com.java4u.eum.dto;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -34,9 +34,9 @@ public class UserAdditionRequestDTO {
 
 	private @JsonProperty("formattedName") String formattedName;
 
-	private @JsonProperty("emails") List<com.altiux.eum.esite.dto.EmailDTO> emails = new ArrayList<com.altiux.eum.esite.dto.EmailDTO>();
+	private @JsonProperty("emails") List<com.java4u.eum.esite.dto.EmailDTO> emails = new ArrayList<com.java4u.eum.esite.dto.EmailDTO>();
 
-	private @JsonProperty("phoneNumbers") List<com.altiux.eum.esite.dto.PhoneNumberDTO> phoneNumbers = new ArrayList<com.altiux.eum.esite.dto.PhoneNumberDTO>();
+	private @JsonProperty("phoneNumbers") List<com.java4u.eum.esite.dto.PhoneNumberDTO> phoneNumbers = new ArrayList<com.java4u.eum.esite.dto.PhoneNumberDTO>();
 
 	private @JsonProperty("pics") List<PhotoDTO> pics = new ArrayList<PhotoDTO>();
 
@@ -132,19 +132,19 @@ public class UserAdditionRequestDTO {
 		this.formattedName = formattedName;
 	}
 
-	public List<com.altiux.eum.esite.dto.EmailDTO> getEmails() {
+	public List<com.java4u.eum.esite.dto.EmailDTO> getEmails() {
 		return emails;
 	}
 
-	public void setEmails(List<com.altiux.eum.esite.dto.EmailDTO> emails) {
+	public void setEmails(List<com.java4u.eum.esite.dto.EmailDTO> emails) {
 		this.emails = emails;
 	}
 
-	public List<com.altiux.eum.esite.dto.PhoneNumberDTO> getPhoneNumbers() {
+	public List<com.java4u.eum.esite.dto.PhoneNumberDTO> getPhoneNumbers() {
 		return phoneNumbers;
 	}
 
-	public void setPhoneNumbers(List<com.altiux.eum.esite.dto.PhoneNumberDTO> phoneNumbers) {
+	public void setPhoneNumbers(List<com.java4u.eum.esite.dto.PhoneNumberDTO> phoneNumbers) {
 		this.phoneNumbers = phoneNumbers;
 	}
 

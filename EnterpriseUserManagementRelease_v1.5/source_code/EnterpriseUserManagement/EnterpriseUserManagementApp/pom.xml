@@ -32,7 +32,7 @@
 		</dependency>
 		
 		<dependency>
-			<groupId>com.altiux.eum</groupId>
+			<groupId>com.java4u.eum</groupId>
 			<artifactId>EnterpriseDataModel</artifactId>
 			<version>0.1</version>
 		</dependency>

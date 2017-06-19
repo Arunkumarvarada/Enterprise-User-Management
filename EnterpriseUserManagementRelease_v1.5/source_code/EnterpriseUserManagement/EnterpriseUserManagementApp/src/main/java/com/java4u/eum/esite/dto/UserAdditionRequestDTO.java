@@ -1,11 +1,11 @@
-package com.altiux.eum.esite.dto;
+package com.java4u.eum.esite.dto;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.altiux.eum.esystem.dto.EmailDTO;
-import com.altiux.eum.esystem.dto.PhoneNumberDTO;
+import com.java4u.eum.esystem.dto.EmailDTO;
+import com.java4u.eum.esystem.dto.PhoneNumberDTO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

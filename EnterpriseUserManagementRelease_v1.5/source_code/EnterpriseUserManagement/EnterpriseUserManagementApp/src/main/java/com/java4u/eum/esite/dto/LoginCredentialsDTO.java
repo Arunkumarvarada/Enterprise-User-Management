@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dto;
+package com.java4u.eum.esite.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -7,7 +7,7 @@ import com.wordnik.swagger.annotations.ApiModelProperty;
 
 /**
  * 
- * @author Renukaradhya.hd
+ * @author Arun
  *
  */
 @ApiModel(value = "A Login Credentials", description = "A Login Credentials", discriminator = "")

@@ -1,6 +1,6 @@
-package com.altiux.eum.esystem.dto;
+package com.java4u.eum.esystem.dto;
 
-import com.altiux.eum.dto.UserAdditionResponseDTO;
+import com.java4u.eum.dto.UserAdditionResponseDTO;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dao.impl;
+package com.java4u.eum.esite.dao.impl;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
@@ -14,34 +14,34 @@ import org.hibernate.Session;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.commons.exceptions.UserAlreadyAvailableException;
-import com.altiux.commons.exceptions.UserNotFoundException;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
-import com.altiux.eum.entities.Email;
-import com.altiux.eum.entities.Operations;
-import com.altiux.eum.entities.EnterpriseSystem;
-import com.altiux.eum.entities.EnterpriseSystemUser;
-import com.altiux.eum.entities.EnterpriseSite;
-import com.altiux.eum.entities.PhoneNumber;
-import com.altiux.eum.entities.Photo;
-import com.altiux.eum.entities.Roles;
-import com.altiux.eum.entities.User;
-import com.altiux.eum.entities.UserRequest;
-import com.altiux.eum.util.EnterpriseSystemInputValidator;
-import com.altiux.eum.esite.dao.UserManagementDAO;
-import com.altiux.eum.esite.dto.AllUsersResponseDTO;
-import com.altiux.eum.esite.dto.OperationsDTO;
-import com.altiux.eum.esite.dto.PhotoDTO;
-import com.altiux.eum.esite.dto.UserAdditionRequestDTO;
-import com.altiux.eum.esite.dto.UserAdditionResponseDTO;
-import com.altiux.eum.esite.dto.UserDeletionRequestDTO;
-import com.altiux.eum.esite.dto.UserDeletionResponseDTO;
-import com.altiux.eum.esite.dto.UserRolesDTO;
-import com.altiux.eum.esystem.dto.EmailDTO;
-import com.altiux.eum.esystem.dto.PhoneNumberDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.commons.exceptions.UserAlreadyAvailableException;
+import com.java4u.commons.exceptions.UserNotFoundException;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
+import com.java4u.eum.entities.Email;
+import com.java4u.eum.entities.Operations;
+import com.java4u.eum.entities.EnterpriseSystem;
+import com.java4u.eum.entities.EnterpriseSystemUser;
+import com.java4u.eum.entities.EnterpriseSite;
+import com.java4u.eum.entities.PhoneNumber;
+import com.java4u.eum.entities.Photo;
+import com.java4u.eum.entities.Roles;
+import com.java4u.eum.entities.User;
+import com.java4u.eum.entities.UserRequest;
+import com.java4u.eum.util.EnterpriseSystemInputValidator;
+import com.java4u.eum.esite.dao.UserManagementDAO;
+import com.java4u.eum.esite.dto.AllUsersResponseDTO;
+import com.java4u.eum.esite.dto.OperationsDTO;
+import com.java4u.eum.esite.dto.PhotoDTO;
+import com.java4u.eum.esite.dto.UserAdditionRequestDTO;
+import com.java4u.eum.esite.dto.UserAdditionResponseDTO;
+import com.java4u.eum.esite.dto.UserDeletionRequestDTO;
+import com.java4u.eum.esite.dto.UserDeletionResponseDTO;
+import com.java4u.eum.esite.dto.UserRolesDTO;
+import com.java4u.eum.esystem.dto.EmailDTO;
+import com.java4u.eum.esystem.dto.PhoneNumberDTO;
 
 public class UserManagementDaoImpl implements UserManagementDAO {
 

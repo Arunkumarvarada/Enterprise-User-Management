@@ -1,18 +1,18 @@
-package com.altiux.eum.esystem.dao.impl;
+package com.java4u.eum.esystem.dao.impl;
 
 import org.hibernate.Query;
 import org.hibernate.classic.Session;
 import org.springframework.dao.DataAccessException;
 
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 
-import com.altiux.eum.esystem.dao.ConfigDAO;
-import com.altiux.eum.esystem.dto.ApplicationConfigDTO;
-import com.altiux.eum.util.EnterpriseSystemInputValidator;
-import com.altiux.eum.entities.ParkingApp;
-import com.altiux.eum.esite.util.ConfigInputValidator;
+import com.java4u.eum.esystem.dao.ConfigDAO;
+import com.java4u.eum.esystem.dto.ApplicationConfigDTO;
+import com.java4u.eum.util.EnterpriseSystemInputValidator;
+import com.java4u.eum.entities.ParkingApp;
+import com.java4u.eum.esite.util.ConfigInputValidator;
 
 public class ConfigDAOImpl implements ConfigDAO {
 

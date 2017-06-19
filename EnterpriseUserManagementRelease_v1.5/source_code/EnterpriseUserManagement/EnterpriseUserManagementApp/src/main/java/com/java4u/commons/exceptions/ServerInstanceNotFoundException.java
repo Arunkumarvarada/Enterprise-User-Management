@@ -1,10 +1,10 @@
 /**
  * 
  */
-package com.altiux.commons.exceptions;
+package com.java4u.commons.exceptions;
 
 /**
- * @author Ankit.A
+ * @author Arun
  *
  */
 public class ServerInstanceNotFoundException extends Exception {

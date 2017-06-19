@@ -1,4 +1,4 @@
-package com.altiux.rest.controllers;
+package com.java4u.rest.controllers;
 
 import java.text.DateFormat;
 import java.util.Date;

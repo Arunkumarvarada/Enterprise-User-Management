@@ -1,6 +1,6 @@
-package com.altiux.eum.esystem.dao;
+package com.java4u.eum.esystem.dao;
 
-import com.altiux.eum.esystem.dto.ApplicationConfigDTO;
+import com.java4u.eum.esystem.dto.ApplicationConfigDTO;
 
 
 public interface ConfigDAO {

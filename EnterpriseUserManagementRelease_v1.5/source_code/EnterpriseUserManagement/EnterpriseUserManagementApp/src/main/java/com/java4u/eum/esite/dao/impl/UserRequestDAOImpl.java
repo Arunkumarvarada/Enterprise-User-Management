@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.dao.impl;
+package com.java4u.eum.esite.dao.impl;
 
 
 import java.sql.Timestamp;
@@ -8,17 +8,17 @@ import java.util.List;
 import org.hibernate.Query;
 import org.hibernate.Session;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
-import com.altiux.eum.entities.EnterpriseSystemUser;
-import com.altiux.eum.entities.EnterpriseSite;
-import com.altiux.eum.entities.UserRequest;
-import com.altiux.eum.util.EnterpriseSystemInputValidator;
-import com.altiux.eum.esite.dao.UserRequestDAO;
-import com.altiux.eum.esite.dto.UserRequestDTO;
-import com.altiux.eum.esite.dto.UserRequestDetailsDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
+import com.java4u.eum.entities.EnterpriseSystemUser;
+import com.java4u.eum.entities.EnterpriseSite;
+import com.java4u.eum.entities.UserRequest;
+import com.java4u.eum.util.EnterpriseSystemInputValidator;
+import com.java4u.eum.esite.dao.UserRequestDAO;
+import com.java4u.eum.esite.dto.UserRequestDTO;
+import com.java4u.eum.esite.dto.UserRequestDetailsDTO;
 
 public class UserRequestDAOImpl implements UserRequestDAO {
 

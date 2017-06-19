@@ -1,21 +1,21 @@
-package com.altiux.eum.esystem.dao;
+package com.java4u.eum.esystem.dao;
 
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.commons.exceptions.UserAlreadyAvailableException;
-import com.altiux.commons.exceptions.UserNotFoundException;
-import com.altiux.eum.esystem.dto.AllAsstManagersResponseDTO;
-import com.altiux.eum.esystem.dto.AllManagersResponseDTO;
-import com.altiux.eum.esystem.dto.AllEnterpriseSiteUsersDTO;
-import com.altiux.eum.esystem.dto.AllUsersResponseDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSitesListDTO;
-import com.altiux.eum.esystem.dto.EnterpriseSitesListResponseDTO;
-import com.altiux.eum.esystem.dto.UserAdditionRequestDTO;
-import com.altiux.eum.esystem.dto.UserAdditionResponseDTO;
-import com.altiux.eum.esystem.dto.UserAssigmentRequestDTO;
-import com.altiux.eum.esystem.dto.UserAssigmentResponseDTO;
-import com.altiux.eum.esystem.dto.UserDeletionRequestDTO;
-import com.altiux.eum.esystem.dto.UserDeletionResponseDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.commons.exceptions.UserAlreadyAvailableException;
+import com.java4u.commons.exceptions.UserNotFoundException;
+import com.java4u.eum.esystem.dto.AllAsstManagersResponseDTO;
+import com.java4u.eum.esystem.dto.AllManagersResponseDTO;
+import com.java4u.eum.esystem.dto.AllEnterpriseSiteUsersDTO;
+import com.java4u.eum.esystem.dto.AllUsersResponseDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSitesListDTO;
+import com.java4u.eum.esystem.dto.EnterpriseSitesListResponseDTO;
+import com.java4u.eum.esystem.dto.UserAdditionRequestDTO;
+import com.java4u.eum.esystem.dto.UserAdditionResponseDTO;
+import com.java4u.eum.esystem.dto.UserAssigmentRequestDTO;
+import com.java4u.eum.esystem.dto.UserAssigmentResponseDTO;
+import com.java4u.eum.esystem.dto.UserDeletionRequestDTO;
+import com.java4u.eum.esystem.dto.UserDeletionResponseDTO;
 
 public interface UserManagementDAO {
 

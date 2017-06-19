@@ -1,4 +1,4 @@
-package com.altiux.eum.esite.util;
+package com.java4u.eum.esite.util;
 
 
 public interface EnterpriseSiteConstants {

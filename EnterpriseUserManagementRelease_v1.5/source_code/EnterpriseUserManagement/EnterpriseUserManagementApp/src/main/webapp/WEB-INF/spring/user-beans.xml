@@ -39,7 +39,7 @@
 		<property name="dataSource" ref="parkingDataSourceBean" />
 		<property name="packagesToScan">
 			<list>
-				<value>com.altiux.eum.entities</value>
+				<value>com.java4u.eum.entities</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
@@ -66,7 +66,7 @@
 		<property name="dataSource" ref="configDataSourceBean" />
 		<property name="packagesToScan">
 			<list>
-				<value>com.altiux.smartparking.config.entities</value>
+				<value>com.java4u.smartparking.config.entities</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">
@@ -82,43 +82,43 @@
 	<!-- .................Parking Factory Bean Ended....................... -->
 
 	<bean id="esSessionFactoryBean"
-		class="com.altiux.eum.util.EnterpriseSystemSessionFactory" autowire="byName" />
+		class="com.java4u.eum.util.EnterpriseSystemSessionFactory" autowire="byName" />
 
 	<bean id="esInputValidator"
-		class="com.altiux.eum.util.EnterpriseSystemInputValidator" autowire="byType" />
+		class="com.java4u.eum.util.EnterpriseSystemInputValidator" autowire="byType" />
 
 	<bean id="configSessionFactory"
-		class="com.altiux.eum.esite.util.ConfigSessionFactory" autowire="byName" />
+		class="com.java4u.eum.esite.util.ConfigSessionFactory" autowire="byName" />
 	<bean id="configInputValidator"
-		class="com.altiux.eum.esite.util.ConfigInputValidator" autowire="byType" />
+		class="com.java4u.eum.esite.util.ConfigInputValidator" autowire="byType" />
 
 
 	<bean id="psUserManagementDao"
-		class="com.altiux.eum.esite.dao.impl.UserManagementDaoImpl" autowire="byType" />
+		class="com.java4u.eum.esite.dao.impl.UserManagementDaoImpl" autowire="byType" />
 
 	<bean id="psUserRequestDao"
-		class="com.altiux.eum.esite.dao.impl.UserRequestDAOImpl" autowire="byType" />
+		class="com.java4u.eum.esite.dao.impl.UserRequestDAOImpl" autowire="byType" />
 
 	<bean id="pcUserManagementDao"
-		class="com.altiux.eum.esystem.dao.impl.UserManagementDAOImpl" autowire="byType" />
+		class="com.java4u.eum.esystem.dao.impl.UserManagementDAOImpl" autowire="byType" />
 
 	<bean id="pcUserRequestDao"
-		class="com.altiux.eum.esystem.dao.impl.UserRequestDAOImpl" autowire="byType" />
+		class="com.java4u.eum.esystem.dao.impl.UserRequestDAOImpl" autowire="byType" />
 		
 	<bean id="enterpriseSystemDAOBean"
-		class="com.altiux.eum.esystem.dao.impl.EnterpriseSystemDAOImpl" autowire="byType" />
+		class="com.java4u.eum.esystem.dao.impl.EnterpriseSystemDAOImpl" autowire="byType" />
 
-	<bean id="configDAO" class="com.altiux.eum.esystem.dao.impl.ConfigDAOImpl"
+	<bean id="configDAO" class="com.java4u.eum.esystem.dao.impl.ConfigDAOImpl"
 		autowire="byType" />
 
 	<bean id="userManagementBootUpConfigurationBean"
-		class="com.altiux.eum.esystem.dao.UserManagementBootUpConfiguration" autowire="byType" />
+		class="com.java4u.eum.esystem.dao.UserManagementBootUpConfiguration" autowire="byType" />
 
 	<bean id="applicationConfigInitializerBean"
-		class="com.altiux.eum.esystem.dao.ApplicationConfigInitializer"	autowire="byType" />
+		class="com.java4u.eum.esystem.dao.ApplicationConfigInitializer"	autowire="byType" />
 
 	<bean id="serverConfigBean"
-		class="com.altiux.eum.esystem.dto.ApplicationConfigDTO">
+		class="com.java4u.eum.esystem.dto.ApplicationConfigDTO">
 		<property name="appName" value="${appName}" />
 		<property name="id" value="${appID}" />
 		<property name="ip" value="${appIP}" />
@@ -126,9 +126,9 @@
 	</bean> 
 
 	<bean id="loginDAO"
-		class="com.altiux.eum.esite.dao.impl.LoginDAOImpl"
+		class="com.java4u.eum.esite.dao.impl.LoginDAOImpl"
 		autowire="byType" />
 
-	<bean id="pcloginDAO" class="com.altiux.eum.esystem.dao.impl.EnterpriseSystemLoginDAOImpl"
+	<bean id="pcloginDAO" class="com.java4u.eum.esystem.dao.impl.EnterpriseSystemLoginDAOImpl"
 		autowire="byType" />
 </beans>

@@ -1,9 +1,9 @@
-package com.altiux.eum.esystem.dao;
+package com.java4u.eum.esystem.dao;
 
 import java.util.List;
 
-import com.altiux.commons.exceptions.InvalidInputException;
-import com.altiux.eum.esystem.dto.UserRequestDetailsDTO;
+import com.java4u.commons.exceptions.InvalidInputException;
+import com.java4u.eum.esystem.dto.UserRequestDetailsDTO;
 
 public interface UserRequestDAO {
 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altiux.eum.esystem.controller;
+package com.java4u.eum.esystem.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.altiux.eum.esystem.dao.EnterpriseSystemLoginDAO;
-import com.altiux.eum.esystem.dto.LoginControllerRequestDTO;
-import com.altiux.eum.esystem.dto.LoginControllerResponseDTO;
-import com.altiux.eum.esystem.dto.LoginWithRolesRequestDTO;
-import com.altiux.eum.esystem.dto.LoginWithRolesResponseDTO;
+import com.java4u.eum.esystem.dao.EnterpriseSystemLoginDAO;
+import com.java4u.eum.esystem.dto.LoginControllerRequestDTO;
+import com.java4u.eum.esystem.dto.LoginControllerResponseDTO;
+import com.java4u.eum.esystem.dto.LoginWithRolesRequestDTO;
+import com.java4u.eum.esystem.dto.LoginWithRolesResponseDTO;
 import com.wordnik.swagger.annotations.Api;
 import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiParam;

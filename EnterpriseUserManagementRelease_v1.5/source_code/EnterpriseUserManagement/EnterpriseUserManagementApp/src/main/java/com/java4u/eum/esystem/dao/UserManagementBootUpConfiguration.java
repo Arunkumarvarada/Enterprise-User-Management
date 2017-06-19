@@ -1,12 +1,12 @@
-package com.altiux.eum.esystem.dao;
+package com.java4u.eum.esystem.dao;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.altiux.eum.esite.dao.UserManagementDAO;
-import com.altiux.logger.App_logger;
-import com.altiux.logger.EModuleName;
-import com.altiux.logger.LoggerFactory;
+import com.java4u.eum.esite.dao.UserManagementDAO;
+import com.java4u.logger.App_logger;
+import com.java4u.logger.EModuleName;
+import com.java4u.logger.LoggerFactory;
 
 public class UserManagementBootUpConfiguration implements InitializingBean {
 

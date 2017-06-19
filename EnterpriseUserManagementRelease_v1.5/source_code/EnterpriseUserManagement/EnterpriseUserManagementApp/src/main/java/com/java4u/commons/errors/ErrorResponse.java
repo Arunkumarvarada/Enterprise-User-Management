@@ -1,4 +1,4 @@
-package com.altiux.commons.errors;
+package com.java4u.commons.errors;
 
 public class ErrorResponse {
 

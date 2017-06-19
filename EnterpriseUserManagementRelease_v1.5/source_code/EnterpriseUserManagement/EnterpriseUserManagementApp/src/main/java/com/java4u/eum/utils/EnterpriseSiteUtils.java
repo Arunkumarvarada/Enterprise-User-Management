@@ -1,4 +1,4 @@
-package com.altiux.eum.utils;
+package com.java4u.eum.utils;
 
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;

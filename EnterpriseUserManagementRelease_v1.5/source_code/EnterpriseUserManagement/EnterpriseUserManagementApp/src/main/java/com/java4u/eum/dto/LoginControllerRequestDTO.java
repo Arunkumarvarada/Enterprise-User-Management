@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.altiux.eum.dto;
+package com.java4u.eum.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
