@@ -9,7 +9,6 @@ import com.java4u.eum.esite.dto.LoginSuccessDTO;
 /**
  * This interface is useful to check the login credentials.It checks in the database in the user table.
  * 
- * @author Ashwini.s
  *
  */
 public interface LoginDAO {
