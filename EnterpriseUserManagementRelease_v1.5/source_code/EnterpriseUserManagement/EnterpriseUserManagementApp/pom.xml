@@ -16,7 +16,7 @@
 		<java-version>1.8</java-version>
 		<org.springframework-version>4.1.6.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
-		<spring.security.version>3.2.5.RELEASE</spring.security.version>
+		<spring.security.version>5.2.10.RELEASE</spring.security.version>
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 		<sonar.host.url>http://localhost:9000/</sonar.host.url>
 		<sonar.exclusions></sonar.exclusions>
